@@ -26,8 +26,8 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 - Đặt vé, hủy vé khi cần.
 
 ### 💬 Tương tác Người dùng
-- Đánh giá phim.
-- Viết bình luận.
+- Dặt/hủy vé.
+- tra cứu vé đã đặt.
 
 ---
 
