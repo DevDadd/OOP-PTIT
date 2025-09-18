@@ -26,7 +26,7 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 - Đặt vé, hủy vé khi cần.
 
 ### 💬 Tương tác Người dùng
-- Dặt/hủy vé.
+- Đặt/hủy vé.
 - tra cứu vé đã đặt.
 
 ---
