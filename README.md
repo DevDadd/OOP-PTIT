@@ -12,23 +12,24 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 
 ## 2. Các chức năng chính
 
-### 🎥 Quản lý Phim
+### 🎥 Quản lý Phim ( movie ) 
 - Hiển thị danh sách phim theo thể loại.
-- Tìm kiếm phim theo tên, thể loại, năm sản xuất.
-- Xem thông tin chi tiết: tên, đạo diễn, diễn viên, mô tả.
+- Tìm kiếm phim theo tên( title) , thể loại( genre ), năm sản xuất ( produce_year ).
+- Xem thông tin chi tiết: tên ( title ) , đạo diễn ( director ), diễn viên ( actor/actress ) , mô tả ( description ).
 
-### 👤 Quản lý Tài khoản
-- Đăng ký và đăng nhập tài khoản.
+### 👤 Quản lý Tài khoản ( user )
+- Đăng ký và đăng nhập tài khoản. ( sign_up , login ).
+- Thông tin tài khoản khi đăng ký gồm: tên ( name ) , số điện thoại / email ( phone number / email ), mật khẩu ( password ).
+- Điều kiện mật khẩu: ít nhất 8 ký tự ( at least 8 character ), ít nhất 1 ký tụ viết hoa và 1 ký tự đặc biệt. ( at least 1 uppercase character and 1 special character)
 - Lưu thông tin cá nhân và lịch sử mua vé.
 
-### 🎟️ Quản lý Vé
-- Hiển thị địa điểm rạp, giờ chiếu, số ghế còn trống.
-- Đặt vé, hủy vé khi cần.
+### 🎟️ Quản lý Vé ( ticket ) 
+- Hiển thị ( show ) địa điểm rạp ( place ), giờ chiếu ( showtime ), số ghế còn trống ( blank_space ).
 
 ### 💬 Tương tác Người dùng
-- Đặt/hủy vé.
-- tra cứu vé đã đặt.
-
+- Đặt/hủy vé.( bôking / cancel ).
+- Thanh Toán ( payment )  
+- tra cứu vé đã đặt.( look_up_history)
 ---
 
 ## 3. Bảng phân công công việc
@@ -63,7 +64,7 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 - `Room`: id, name, seats.
 - `Seat`: id, row, number, status.
 - `Showtime`: id, movie, room, startTime, endTime, price.
-- `User`: id, name, email, phone, password, role.
+- `User`: id, name, email, phone, password.
 - `Booking`: id, user, showtime, seats, totalPrice, status.
 - `Payment`: id, booking, amount, method, status.
 
