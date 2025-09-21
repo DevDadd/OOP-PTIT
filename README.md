@@ -38,8 +38,8 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 | **Giai đoạn 1: Lập kế hoạch & Thiết kế (Tuần 1-2)** | Nghiên cứu và phân tích yêu cầu | Trần Quang Tiến, Tô Thanh Phương |
 | | Thiết kế cấu trúc lớp (Class Diagram) và mối quan hệ | Nguyễn Tấn Dũng, Nguyễn Quang Anh |
 | | Thiết kế luồng hoạt động của chương trình | Trần Hải Nam |
-| **Giai đoạn 2: Phát triển & Cài đặt (Tuần 3-6)** | Phát triển các lớp đối tượng (Movie, User, Account, …) | Nguyễn Tấn Dũng |
-| | Cài đặt chức năng tìm kiếm, lọc và hiển thị phim | Tô Thanh Phương |
+| **Giai đoạn 2: Phát triển & Cài đặt (Tuần 3-6)** | Phát triển các lớp đối tượng (Movie, User, Account, …) | Nguyễn Tấn Dũng , Tô Thanh Phương |
+| | Cài đặt chức năng tìm kiếm, lọc, hiển thị và đặt vé phim | Tô Thanh Phương |
 | | Cài đặt chức năng quản lý tài khoản và lịch sử xem | Trần Hải Nam |
 | | Xây dựng giao diện người dùng (Console/GUI đơn giản) | Trần Quang Tiến |
 | | Cài đặt chức năng quản lý danh sách xem cá nhân | Nguyễn Quang Anh |
