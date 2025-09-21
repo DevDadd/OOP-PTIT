@@ -13,8 +13,8 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 ## 2. Các chức năng chính
 
 ### 🎥 Quản lý Phim ( movie ) 
-- Hiển thị danh sách phim theo thể loại.
-- Tìm kiếm phim theo tên( title) , thể loại( genre ), năm sản xuất ( produce_year ).
+- Hiển thị( show ) danh sách phim theo thể loại.
+- Tìm kiếm ( finding ) phim theo tên( title) , thể loại( genre ), năm sản xuất ( produce_year ).
 - Xem thông tin chi tiết: tên ( title ) , đạo diễn ( director ), diễn viên ( actor/actress ) , mô tả ( description ).
 
 ### 👤 Quản lý Tài khoản ( user )
@@ -27,7 +27,7 @@ Trong bối cảnh công nghệ thông tin phát triển mạnh mẽ, nhu cầu 
 - Hiển thị ( show ) địa điểm rạp ( place ), giờ chiếu ( showtime ), số ghế còn trống ( blank_space ).
 
 ### 💬 Tương tác Người dùng
-- Đặt/hủy vé.( bôking / cancel ).
+- Đặt/hủy vé.( booking / cancel ).
 - Thanh Toán ( payment )  
 - tra cứu vé đã đặt.( look_up_history)
 ---
