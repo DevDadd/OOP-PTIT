@@ -1,3 +1,5 @@
+package feature.home.domain;
+
 // Danh sách cá nhân
 public class Personal_lists {
     private String time;
@@ -5,7 +7,8 @@ public class Personal_lists {
     private double cost;
 
     // Constructor
-    public Personal_lists() {}
+    public Personal_lists() {
+    }
 
     // Methods
     public void show() {

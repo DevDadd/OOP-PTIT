@@ -1,3 +1,5 @@
+package feature.home.domain;
+
 // Tài khoản người dùng
 public class User_account {
     // Attributes
@@ -8,7 +10,8 @@ public class User_account {
     private String password;
 
     // Constructor
-    public User_account() {}
+    public User_account() {
+    }
 
     // Methods
     public boolean login(String email, String password) {

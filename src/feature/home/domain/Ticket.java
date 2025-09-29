@@ -1,3 +1,5 @@
+package feature.home.domain;
+
 // Vé xem phim
 public class Ticket {
 
@@ -8,7 +10,8 @@ public class Ticket {
     private double cost;
 
     // Constructor
-    public Ticket() {}
+    public Ticket() {
+    }
 
     // Methods
     public void show() {
