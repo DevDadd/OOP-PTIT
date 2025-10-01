@@ -8,10 +8,13 @@ public class User_interaction {
 
     // Methods
     public void booking(Ticket ticket) {
-        // TODO
+        System.out.println("Booking ticket...");
+        ticket.show();
     }
 
     public void payment(Ticket ticket) {
-        // TODO
+        System.out.println("Processing payment for ticket...");
+        System.out.println("Amount: " + ticket.getCost() + " VND");
+        System.out.println("Payment successful!");
     }
 }
