@@ -29,5 +29,12 @@ public class movie {
     }
 
     public void show() {
+        System.out.println("Movie info:");
+        System.out.println("Title: " + title);
+        System.out.println("Genre: " + genre);
+        System.out.println("Duration: " + duration + " minutes");
+        System.out.println("Rating: " + rating + "/10");
+        System.out.println("Description: " + description);
+        System.out.println("Banner: " + bannerURL);
     }
 }
