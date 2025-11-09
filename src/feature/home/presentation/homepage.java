@@ -1,10 +1,10 @@
 package feature.home.presentation;
 
-import feature.home.domain.movie;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+import feature.home.domain.Movie;
 
 public class homepage {
     public static void main(String[] args) {
@@ -12,15 +12,15 @@ public class homepage {
             JFrame frame = new JFrame("Web Quan Ly Phim");
             frame.setSize(400, 300);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            List<movie> movies = new ArrayList<>();
-            movies.add(new movie(1, "Mưa Đỏ", "Action", 124, 5.0,
+            List<Movie> movies = new ArrayList<>();
+            movies.add(new Movie(1, "Mưa Đỏ", "Action", 124, 5.0,
                     "Bộ phim kể về cuộc chiến đấu bảo vệ Thành cổ Quảng Trị của Cường và các thành viên khác của Tiểu đội 1, Tiểu đoàn K3 Tam Đảo của Quân Giải phóng, chống lại sự tấn công của Quân lực Việt Nam Cộng hòa có sự hỗ trợ của cố vấn và quân đội Mỹ.",
                     "https://cdn2.tuoitre.vn/thumb_w/480/471584752817336320/2025/8/24/mua-do-6-1756027005405772261674.jpg"));
-            DefaultListModel<movie> model = new DefaultListModel<>();
-            for (movie m : movies) {
+            DefaultListModel<Movie> model = new DefaultListModel<>();
+            for (Movie m : movies) {
                 model.addElement(m);
             }
-            JList<movie> movieJList = new JList<>(model);
+            JList<Movie> movieJList = new JList<>(model);
             movieJList.setLayoutOrientation(JList.HORIZONTAL_WRAP);
             movieJList.setVisibleRowCount(1);
             movieJList.setCellRenderer((list, value, index, isSelected, cellHasFocus) -> {
