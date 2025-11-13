@@ -11,7 +11,7 @@ public class loginpage {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLocationRelativeTo(null);
 
-            ImageIcon bgIcon = new ImageIcon("src\\assets\\images\\loginbg.jpg");
+            ImageIcon bgIcon = new ImageIcon("src/assets/images/loginbg.jpg");
             JLabel bgImage = new JLabel(bgIcon);
             bgImage.setLayout(new GridBagLayout());
 

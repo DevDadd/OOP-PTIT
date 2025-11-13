@@ -1,6 +1,6 @@
 package feature.home.domain;
 
-public class Movie {
+public class movie {
     private int id;
     private String title;
     private String genre;
@@ -9,7 +9,7 @@ public class Movie {
     private String description;
     private String bannerURL;
 
-    public Movie(int id, String title, String genre, int duration, double rating, String description,
+    public movie(int id, String title, String genre, int duration, double rating, String description,
             String bannerURL) {
         this.id = id;
         this.title = title;
