@@ -2,6 +2,10 @@ package feature.authentication.presentation;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
+import feature.home.presentation.homepage;
+import java.awt.event.ActionEvent;
+
 
 public class loginpage {
     public static void main(String[] args) {
@@ -37,6 +41,14 @@ public class loginpage {
             JButton loginButton = new JButton("Login");
             bgImage.add(loginButton, gbc);
 
+            loginButton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    new homepage();
+
+                    frame.dispose();
+                }
+            });
             frame.setContentPane(bgImage);
             frame.setVisible(true);
         });
